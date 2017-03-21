@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Frutería Master</title>
+    <style>
+    html,body {
+    height:100%;
+}
+
+header {
+
+    display:block;
+    background:#9ef028;
+    padding:10px 0px;
+}
+section {
+    width: 79%;
+    background: #cae3a7;
+    float: left;
+    overflow: auto;
+    padding-bottom: 60px;
+    padding-top:30px;
+}
+
+aside {
+    float: right;
+    width: 19%;
+
+
+}
+footer {
+    position: relative;
+    margin-top: -50px;
+    height: 40px;
+    padding:5px 0px;
+    clear: both;
+    background: #9ef028;
+    text-align: center;
+    color: #fff;
+}
+figure {
+    display: table; margin: 0 auto;
+}
+
+    </style>
+  </head>
+  <body>
+    <script src="assets\js\javascript.js"></script>
+    <header>
+      <h1>Frutas Master</h1
+    </header>
+    <section>
+      <article>
+        <h2> Lista de Frutas </h2>
+        <p><b>Frutas Master</b> es una empresa familiar de tercera generación que se dedica a la compra, venta y distribución al por mayor.</p>
+        <p>En la actualidad, somos la empresa líder en el servicio de la distribución de frutas.</p>
+        <div>
+          <figure>
+          <img src="calorias_fruta.jpg" alt="banner de publicidad">
+        </figure>
+          <h2>Catálogo:</h2>
+            <ol id="listaOrdenada">
+            </ol>
+
+        </div>
+      </article>
+    </section>
+
+    <aside>
+      <h3>Agrega fruta a la lista </h3>
+    <input  type="text" id="nueva_lista"  placeholder="frutas"required>
+    <input type="submit" onclick="return agregarlista()" value="añadir fruta">
+  </aside>
+  <footer>Nely</footer>
+
+  </body>
+</html>
